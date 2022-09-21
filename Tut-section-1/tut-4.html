@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="prism.css">
+    <script src="prism.js"></script>
+    <title>tut-4</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            margin-left: 50px;
+        }
+
+        .container h1 {
+            margin-top: 20px;
+            margin-bottom: 25px;
+        }
+
+        .container h2 {
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        .toolbar-item button {
+            cursor: pointer !important;
+            color: white !important;
+            background-color: teal !important;
+            border: 1px solid white !important;
+            padding: 4px !important;
+        }
+        .code{
+            margin-top: 15px;
+        }
+        #code-1{
+            margin-bottom: 20px;
+        }
+        h4{
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        p{
+            margin-bottom: 34px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="heading">
+            <h1>HTML Document Structure</h1>
+        </div>
+        <h2>How does an HTML document structure look?</h2>
+        <p>HTML document structure contains some set of tags. Tags are some text enclosed within <…> angle braces.<br> A
+                tag is like a container for either content or other HTML tags. The below text shows how the HTML
+                document structure looks:</p>
+        <div class="code">
+            <pre class="language-HTML" id="code-1"><code>
+&LT;!DOCTYPE html&GT;
+&LT;html&GT;
+&LT;head&GT;
+    &LT;title&GT;Document&LT;/title&GT;
+&LT;/head&GT;
+&LT;body&GT;
+    &LT;!-- content --&GT;
+&LT;/body&GT;
+&LT;/html&GT;
+    </code></pre>
+            <p>Do not be afraid. I will explain what is being represented above to you.</p>
+
+            <h4>NOTE: These are the five must-use tags for HTML <br>
+                &LT;!DOCTYPE html&GT;, &LT;html&GT;, &LT;head&GT;, &LT;title&GT;, &LT;body&GT;</h4>
+            <!-- &LT; for < and &GT; for >
+    using this, the html tags will be visible on webpage as a text..
+    -->
+
+            <pre class="language-HTML"><code>1.  &LT;!DOCTYPE html&GT; </code></pre>
+            <p>The &lt;!DOCTYPE&gt; declaration tag is used by the web browser to understand the version of the HTML
+                used in the document. The current version is 5 i.e. HTML 5.</p>
+
+            <pre class="language-HTML"><code>2.  &LT;html&GT;</code></pre>
+            <p>The &lt;html&gt; tag is the root of an HTML page.</p>
+
+            <pre class="language-HTML"><code>3.  &LT;head&GT;</code></pre>
+            <p>The &lt;head&gt; tag contains page metadata.</p>
+
+            <pre class="language-HTML"><code>4.  &LT;title&GT;Document&LT;/title&GT;</code></pre>
+            <p>The &lt;Title&gt; tag contains the title of a page and is shown in the browser title bar.</p>
+
+            <pre class="language-HTML"><code>5.  &LT;/head&GT;</code></pre>
+            <p>The &lt;/head&gt; tag is closing of &lt;head&gt; tag.</p>
+
+            <pre class="language-HTML"><code>6.  &LT;body&GT;</code></pre>
+            <p>&lt;body&gt; tag is the main tag of HTML. It contains the main body of the page and is shown in the white
+                part of the browser.</p>
+
+            <pre class="language-HTML"><code>7.  &LT;/body&GT;</code></pre>
+            <p>The &lt;/body&gt; tag is closing of &lt;body&gt; tag.</p>
+
+            <pre class="language-HTML"><code>8.  &LT;/html&GT;</code></pre>
+            <p>The &lt;/html&gt; tag is closing of &lt;html&gt; tag.</p>
+            <p>Every HTML page needs at least these 8 lines to define a layout of a page. We will learn more about HTML
+                tags in the upcoming tutorial.</p>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

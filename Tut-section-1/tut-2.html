@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tut-2</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            margin-left: 50px;
+        }
+
+        .container h1 {
+            margin-top: 20px;
+            margin-bottom: 25px;
+        }
+
+        .para {
+            margin-bottom: 35px;
+        }
+
+        .para p {
+            margin-bottom: 25px;
+        }
+
+        .image {
+            margin-left: 150px;
+            margin-bottom: 25px;
+        }
+
+        .image img {
+            width: 80vw;
+        }
+
+        .img-para {
+            margin-bottom: 35px;
+        }
+
+        .img-para p {
+            margin-bottom: 20px;
+        }
+        .container h2{
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+        .list-1{
+            margin: 20px;
+        }
+        .list-1 li{
+            margin-bottom: 15px;
+        }
+        .list-2{
+            margin: 20px;
+        }
+        .list-2 li{
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="heading">
+            <h1>HTML Working</h1>
+        </div>
+        <div class="para">
+            <p>When we want to access any information on the internet we search that on a web browser.<br> The web
+                browser gets all the content from the web servers. This content is stored in the webservers in the form
+                of an HTML document.</p>
+            <p>An HTML document is first written with some tags in any code editor or your choice of a text editor and
+                then saved with the “ .html ” extension.<br> After this, the browser interprets the HTML document, reads
+                it, and renders a web page.</p>
+        </div>
+
+        <div class="image">
+            <img src="images/tut-2.png" alt="error">
+        </div>
+
+        <div class="img-para">
+            <p>In the above figure, we open a simple text editor, then the basic structure is to be written. Now, this
+                file
+                is to be saved with the "index.html" filename.<br> After saving this file, open this file in your web
+                browser. After opening our webpage will look like as the output.</p>
+            <p>Below we'll discuss this line briefly.</p>
+        </div>
+
+        <h2>How does HTML Works?</h2>
+        <h2>HTML Document:</h2>
+        <p>HTML Document consists of two parts:</p>
+        <ul class="list-1">
+            <li>Creation of Document</li>
+            <li>Tags</li>
+        </ul>
+        <p>The first part is Document creation. This is created by choosing any text editor of our choice. The choice
+            depends upon which we want to write our HTML code. Notepad is the easiest way to write but some prefer
+            visual studio, Atom-like code editors to write code. After choosing the editor, the next part is to write
+            tags. Tags contain content and the braces. For example,
+
+            <body>//content</body>. Don't worry about the syntax you have seen we'll learn about tags in our upcoming
+            tutorial section. So after writing tags we save our document in the editor with the ".html" or ".htm"
+            extension. For example, "helloprogram.html". This .html extension signal browser to read the file. We have
+            finished our work and now it is time for the browser to do its work.
+        </p>
+
+        <h2>Browser:</h2>
+        <ul class="list-2">
+            <li>A browser is an application that reads HTML documents and renders the webpage.</li>
+            <li>They cannot read the content directly where it is stored. To settle this conflict servers are used.</li>
+            <li>A server acts like an intermediate, it patiently listens to the browser's request and executes it.</li>
+            <li>Now the document is delivered to the browser.</li>
+            <li>Browsers support two parts now: parsing and rendering.</li>
+            <li>When the browser is in the parsing stage, it receives raw bytes which are converted into characters and
+                these characters are then converted into tokens after that tokens are converted into nodes. Then these
+                nodes are linked in a tree data structure known as DOM(Document Object Model).</li>
+            <li>when the DOM tree structure has been constructed, the browser starts its rendering. Now each node in the
+                DOM tree will be rendered and displayed.</li>
+        </ul>
+
+        <h2>Rendered Page:</h2>
+        <p>This rendered page is the output screen of our HTML Document. </p>
+
+        <h2>How does the basic website work?</h2>
+        <ul>
+            <li>Web Browser(client) requests <a href="#">www.helloworld.com</a> like websites from the webserver.</li>
+            <li>Webserver in return sends HTML, CSS, and JS files to it.</li>
+            <li>HTML, JS, and CSS files are parsed by a web browser and show you a beautiful website.</li>
+        </ul>
+
+    </div>
+
+</body>
+
+</html>

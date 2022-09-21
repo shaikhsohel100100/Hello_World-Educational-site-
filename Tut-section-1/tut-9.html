@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="prism.css">
+    <script src="prism.js"></script>
+    <title>tut-9</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            margin-left: 50px;
+        }
+
+        .container h1 {
+            margin-top: 20px;
+            margin-bottom: 25px;
+        }
+
+        .container h2 {
+            margin-top: 40px;
+            margin-bottom: 15px;
+        }
+
+        .toolbar-item button {
+            cursor: pointer !important;
+            color: white !important;
+            background-color: teal !important;
+            border: 1px solid white !important;
+            padding: 4px !important;
+        }
+        p{
+            margin-bottom: 15px;
+        }
+        .code1, .code2, .code3{
+            margin-top: 30px;
+        }
+        pre{
+            border-radius: 10px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="heading">
+            <h1>HTML Tags</h1>
+        </div>
+        <h2>What is an HTML Element?</h2>
+        <p>HTML Element is a combination of the start tag, content, and end tag.</p>
+        <strong>HTML Element = Start tag + Content + End tag </strong>
+        <div class="code1">
+            <p>For example:</p>
+            <pre class="language-HTML"><code>&lt;h1&gt; This is our first heading</code></pre>
+            <p>This is a heading Element..</p>
+        </div>
+
+        <h2>What is a Nested HTML Element?</h2>
+        <p>Nested HTML Element is the elements in which one HTML element are followed by another HTML element.</p>
+        <strong>Nested HTML Element = One HTML element inside another HTML element</strong>
+        <div class="code2">
+            <p>For example:</p>
+            <pre class="language-HTML"><code>&lt;h1&gt;&lt;b&gt; This is our first heading &lt;/b&gt;&lt;/h1&gt;</code></pre>
+            <p> This is a bold tag inside the heading element.</p>
+        </div>
+
+        <h2>What is an Empty HTML Element?</h2>
+        <p>Empty HTML Element is the element in which tags do not have any content.</p>
+        <strong>Empty HTML Element = Tags with no content </strong>
+        <div class="code3">
+            <p>For example:</p>
+            <pre class="language-HTML"><code>&lt;br/&gt;</code></pre>
+            <p>This is a <strong>break tag</strong> having no content. &lt;hr/&gt; is also an example of this.</p>
+            <p>These tags are known as <strong>“empty elements”.</strong></p>
+        </div>
+       
+        
+
+    </div>
+
+</body>
+
+</html>
